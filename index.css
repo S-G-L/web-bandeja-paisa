@@ -1,0 +1,126 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    margin:auto;
+    height: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    background-image: url(http://www.banderas-muAndo.es/data/flags/ultra/co.png);
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.header__menu ul, ol {
+    list-style:none;
+    display: inherit;
+}
+
+.header__menu a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    display: block;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.header__menu a:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 0px 1px 8px 1px black;
+    }
+
+.header__menu li ul{
+    display: none;
+    position:absolute;
+    
+}
+
+.header__menu li:hover > ul {
+    display:block;
+}
+
+.banner__text-hero{
+    color: black;
+    font-family: Arial;
+    font-size: 24px;
+
+  }
+
+.banner__img-hero{
+    height:900px;
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Bandeja__paisa{
+    display: flex;
+    margin: 100px;
+}
+
+.Bandeja__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px rgb(88, 92, 88);
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+}
+
+.Bandeja__box img{
+    border-radius: 10px;
+    width: 1520px;
+}
+
+.Bandeja__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+
+.Ingredientes__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px rgb(88, 92, 88);
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+}
+
+.Lista{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575; 
+}
+
+.Preparación__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px rgb(88, 92, 88);
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.Preparación__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+
+.footer{
+    color: rgba(163, 163, 163, 0.918);
+    background-color: rgba(80, 97, 97, 0.76);
+}
